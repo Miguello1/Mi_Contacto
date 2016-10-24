@@ -8,6 +8,7 @@
 
     <string name="hint_nombre">Nombre completo</string>
     <string name="button_fechanacimiento">Fecha de nacimiento</string>
+    <string name="hint_fecha">Día - Mes - Año </string>
     <string name="hint_telefono">Teléfono</string>
     <string name="hint_email">E-mail</string>
     <string name="hint_descripcion">Descripción Contacto</string>
@@ -18,7 +19,7 @@
     <string name="campo_descripcion">Descripción</string>
 
     <string name="nombre">Miguel Angel</string>
-    <string name="fechanacimiento">10-01-1993</string>
+    <string name="fechanacimiento">10/01/1993</string>
     <string name="telefono">3134806506</string>
     <string name="email">mmm@yahoo.com</string>
     <string name="descripcion">El tipo que quiere aprender a programar</string>
