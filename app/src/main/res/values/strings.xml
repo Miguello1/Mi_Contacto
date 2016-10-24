@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MiContacto</string>
+
+    <string name="datos">INGRESA TUS DATOS</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="confirmar_datos">CONFIRMAR DATOS</string>
+    <string name="editar_datos">EDITAR DATOS</string>
+
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="button_fechanacimiento">Fecha de nacimiento</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_descripcion">Descripción Contacto</string>
+
+    <string name="campo_fechanacimiento">Fecha </string>
+    <string name="campo_telefono">Teléfono</string>
+    <string name="campo_email">E-mail</string>
+    <string name="campo_descripcion">Descripción</string>
+
+    <string name="nombre">Miguel Angel</string>
+    <string name="fechanacimiento">10-01-1993</string>
+    <string name="telefono">3134806506</string>
+    <string name="email">mmm@yahoo.com</string>
+    <string name="descripcion">El tipo que quiere aprender a programar</string>
+
+
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">teléfono</string>
+    <string name="pemail">e-mail</string>
+    <string name="pdescripcion">descripción</string>
+
+
+</resources>
