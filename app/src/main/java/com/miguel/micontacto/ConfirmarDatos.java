@@ -11,6 +11,7 @@ public class ConfirmarDatos extends AppCompatActivity {
 
     Button btn_editar;
     TextView tvNombre;
+    TextView tvFecha;
     TextView tvTelefono;
     TextView tvEmail;
     TextView tvDescripcion;
@@ -23,16 +24,19 @@ public class ConfirmarDatos extends AppCompatActivity {
         Bundle parametros = getIntent().getExtras();
 
         String name = parametros.getString(getResources().getString(R.string.pnombre));
+        String fecha = parametros.getString("fecha");
         String phone = parametros.getString(getResources().getString(R.string.ptelefono));
         String mail = parametros.getString(getResources().getString(R.string.pemail));
         String description = parametros.getString(getResources().getString(R.string.pdescripcion));
 
-        tvNombre = (TextView) findViewById(R.id.nombre);
-        tvTelefono = (TextView) findViewById(R.id.telefono);
-        tvEmail = (TextView) findViewById(R.id.email);
-        tvDescripcion = (TextView) findViewById(R.id.descripcion);
+        tvNombre        = (TextView) findViewById(R.id.nombre);
+        tvFecha         = (TextView) findViewById(R.id.fecha);
+        tvTelefono      = (TextView) findViewById(R.id.telefono);
+        tvEmail         = (TextView) findViewById(R.id.email);
+        tvDescripcion   = (TextView) findViewById(R.id.descripcion);
 
         tvNombre.setText(name);
+        tvFecha.setText(fecha);
         tvTelefono.setText(phone);
         tvEmail.setText(mail);
         tvDescripcion.setText(description);
@@ -45,6 +49,7 @@ public class ConfirmarDatos extends AppCompatActivity {
             public void onClick(View view) {
                 Intent y = new Intent(ConfirmarDatos.this, MainActivity.class);
                 y.putExtra("nombre", tvNombre.getText().toString());
+                y.putExtra("fecha", tvFecha.getText().toString());
                 y.putExtra("telefono", tvTelefono.getText().toString());
                 y.putExtra("email", tvEmail.getText().toString());
                 y.putExtra("descripcion", tvDescripcion.getText().toString());
